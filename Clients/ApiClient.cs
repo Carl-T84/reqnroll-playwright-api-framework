@@ -23,4 +23,26 @@ public class ApiClient
             DataObject = body
         });
     }
-}
+
+    public async Task<IAPIResponse> PutAsync(string endpoint, object body)
+    {
+        return await _request.PutAsync(endpoint, new APIRequestContextOptions
+        {
+            DataObject = body
+        });
+    }       
+
+     public async Task<IAPIResponse> DeleteAsync(string endpoint)
+    {
+        return await _request.DeleteAsync(endpoint);
+    }  
+
+    public async Task<IAPIResponse> PatchAsync(string endpoint, object body)
+    {
+        return await _request.PatchAsync(endpoint, new APIRequestContextOptions
+        {
+            DataObject = body
+        });
+    } 
+
+}                      
