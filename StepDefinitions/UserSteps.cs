@@ -37,4 +37,23 @@ public class UserSteps
 
         json["username"]!.ToString().Should().Be(expectedUsername);
     }
+
+    [Given(@"I have a valid post request")]
+    public void GivenIHaveAValidPostRequest()
+    {
+        _testContext.RequestBody = new
+        {
+            title = "Reqnroll Test",
+            body = "Playwright API automation",
+            userId = 1
+        };
+    }
+
+    [When(@"I create a new post")]
+    public async Task WhenICreateANewPost()
+    {
+        _testContext.Response = await _apiClient.PostAsync(
+            "/posts",
+            _testContext.RequestBody!);
+    }
 }

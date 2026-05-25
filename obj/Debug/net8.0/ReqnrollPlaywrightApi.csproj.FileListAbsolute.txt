@@ -439,6 +439,7 @@
 /Users/Carl.Thomas/Automation Projects/ReqnrollPlaywrightApi/obj/Debug/net8.0/ReqnrollPlaywrightApi.AssemblyInfoInputs.cache
 /Users/Carl.Thomas/Automation Projects/ReqnrollPlaywrightApi/obj/Debug/net8.0/ReqnrollPlaywrightApi.AssemblyInfo.cs
 /Users/Carl.Thomas/Automation Projects/ReqnrollPlaywrightApi/obj/Debug/net8.0/ReqnrollPlaywrightApi.csproj.CoreCompileInputs.cache
+/Users/Carl.Thomas/Automation Projects/ReqnrollPlaywrightApi/obj/Debug/net8.0/ReqnrollPlaywrightApi.sourcelink.json
 /Users/Carl.Thomas/Automation Projects/ReqnrollPlaywrightApi/obj/Debug/net8.0/Reqnroll.2712667A.Up2Date
 /Users/Carl.Thomas/Automation Projects/ReqnrollPlaywrightApi/obj/Debug/net8.0/ReqnrollPlaywrightApi.dll
 /Users/Carl.Thomas/Automation Projects/ReqnrollPlaywrightApi/obj/Debug/net8.0/refint/ReqnrollPlaywrightApi.dll
